@@ -1,0 +1,14 @@
+.jumbotron {
+  color: white;
+  background-image: url("../images/stone.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align : center;
+}
+
+.hero_logo {
+  
+}
+
