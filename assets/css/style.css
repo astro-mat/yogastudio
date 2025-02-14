@@ -1,12 +1,12 @@
 body {
-  background: #CDB09E;
-  font-family: "Nunito", "sans-serif";
+  background: white;
+  font-family: "Raleway", "sans-serif";
 }
 
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
-  background-color: #CDB09E;
+  /* background-color: #CDB09E; */
 }
 
 #mainNavbar .nav-link {
@@ -19,7 +19,16 @@ body {
 
 #mainNavbar .navbar-brand {
   font-size: 2rem;
-  color: #13070C;
+  color: white;
   font-weight: 100;
 }
 
+#jumbotron {
+  background-image: url("../images/gallery/pexels-chevanon-317155.jpg");
+}
+
+@media(max-width: 768px){
+  .navbar {
+    background: #1f1f1f;
+  }
+}
