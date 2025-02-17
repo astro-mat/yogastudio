@@ -1,12 +1,12 @@
 body {
-  background: white;
+  background: pink;
   font-family: "Raleway", "sans-serif";
 }
 
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
-  /* background-color: #CDB09E; */
+  background-color: #CDB09E;
 }
 
 #mainNavbar .nav-link {
@@ -27,8 +27,38 @@ body {
   background-image: url("../images/gallery/pexels-chevanon-317155.jpg");
 }
 
+/* HERO SECTION */
+
+#heroSection {
+  background: url("../images/gallery/pexels-chevanon-317155.jpg");
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#heroSection h1 {
+  font-family: "Questrial", sans-serif;
+  line-height: 1;
+}
+
+#bookNow {
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+/* MEDIA QUERIES */
+
 @media(max-width: 768px){
   .navbar {
     background: #1f1f1f;
+  }
+
+  #heroSection {
+    min-height: 500px
+  }
+
+  #heroSection h1 {
+    font-size: 4rem;
   }
 }
