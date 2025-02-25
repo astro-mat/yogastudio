@@ -30,7 +30,7 @@ body {
 /* HERO SECTION */
 
 #heroSection {
-  /* background: url("../images/gallery/pexels-chevanon-317155.jpg"); */
+  /* IMAGE SOURCE */
   background: url("../images/gallery/pexels-cliff-booth-4056723.jpg");
   min-height: 1000px;
   background-repeat: no-repeat;
@@ -65,13 +65,17 @@ body {
 
 /* IMAGE SECTION */
 #imageSection {
-  /* background: url("../images/gallery/pexels-chevanon-317155.jpg"); */
+  /* IMAGE SOURCE */
   background: url("../images/gallery/pexels-alexy-almond-3758151.jpg");
   min-height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+#imageSection2 {
+  
 }
 
 #header {
