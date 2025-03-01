@@ -1,5 +1,6 @@
+/* navbar */
+
 body {
-  /* background: #6B4D57; */
   font-family: "Raleway", "sans-serif";
   padding-top: 40px;
 }
@@ -26,10 +27,12 @@ body {
 }
 
 /* HERO SECTION */
+/* inspired by Colt steele udemy course */
+/* https://www.udemy.com/course/bootstrap-4-bootcamp */
 
 #heroSection {
   /* Photo by Cliff  Booth: https://www.pexels.com/photo/photo-of-women-stretching-together-4056723/ */
-  background: url("../images/pexels-cliff-booth-4056723.jpg");
+  background: url("../images/tinified/pexels-cliff-booth-4056723.jpg");
   min-height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,15 +64,16 @@ body {
   z-index: 1;
 }
 
-/* FOOTER */
-#footer {
+#contactTable {
   font-family: "Nunito", sans-serif;
-  font-weight: 100;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
+
+/* GALLERY */
+/* https://www.codewithrandom.com/2023/10/20/image-hover-border-effect-css/ */
+#gallerySection img:hover{
+  border:8px solid #6B4D57;
+  transition-duration: 0.4s;
 
 
 /* MEDIA QUERIES */
